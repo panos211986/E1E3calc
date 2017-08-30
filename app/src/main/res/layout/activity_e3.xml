@@ -173,6 +173,7 @@
 
             </RadioGroup>
         </LinearLayout>
+
         <EditText
             android:id="@+id/editText23"
             android:layout_width="match_parent"
@@ -225,6 +226,7 @@
 
             </RadioGroup>
         </LinearLayout>
+
         <EditText
             android:id="@+id/editText23"
             android:layout_width="match_parent"
@@ -277,6 +279,7 @@
 
             </RadioGroup>
         </LinearLayout>
+
         <EditText
             android:id="@+id/editText23"
             android:layout_width="match_parent"
@@ -329,6 +332,7 @@
 
             </RadioGroup>
         </LinearLayout>
+
         <EditText
             android:id="@+id/editText23"
             android:layout_width="match_parent"
@@ -381,6 +385,7 @@
 
             </RadioGroup>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -413,6 +418,7 @@
 
             </RadioGroup>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -445,6 +451,7 @@
 
             </RadioGroup>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -477,6 +484,7 @@
 
             </RadioGroup>
         </LinearLayout>
+
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
@@ -485,6 +493,7 @@
             android:text="ΠΙΝΑΚΑς ΣΤ.ΕΠΙΧΕΙΡΗΣΕΙΣ ΕΛΕΥΘΕΡΟΙ ΕΠΑΓΓΕΛΜΑΤΊΕΣ ΜΕ ΒΙΒΛΙΑ Α', Β' ΚΑΤΗΓΟΡΙΑΣ"
             android:textColor="#000000"
             android:textSize="17dp" />
+
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
@@ -493,239 +502,271 @@
             android:text="δ)Δαπανες(Εμπορίας - Μεταποίησης)"
             android:textColor="#000000"
             android:textSize="17dp" />
+
         <EditText
             android:id="@+id/d1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="αμοιβές προδωπικού "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/d2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="αμοιβές και έξοδα τρίτων "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/d3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="παροχές τριτων,φόροι τέλη "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/d4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="ιδιόχρηση "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/d5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="διάφορα εξοδα "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/d6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="τόκοι και συναφή έξοδα "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/d7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="αποσβέσεις παγίων "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <Button
             android:id="@+id/d8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Σύνολο δαπανών "
-            android:onClick="displaySumd8"
+            android:background="@android:color/holo_blue_dark"
             android:inputType="textPersonName"
+            android:onClick="displaySumd8"
+            android:text="Σύνολο δαπανών "
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="δ)Δαπανες(Παροχής υπηρεσιών)"
+            android:text="δα)Δαπανες(Παροχής υπηρεσιών)"
             android:textColor="#000000"
             android:textSize="17dp" />
+
         <EditText
             android:id="@+id/da1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="αμοιβές προδωπικού "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/da2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="αμοιβές και έξοδα τρίτων "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/da3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="παροχές τριτων,φόροι τέλη "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/da4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="ιδιόχρηση "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/da5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="διάφορα εξοδα "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/da6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="τόκοι και συναφή έξοδα "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/da7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="αποσβέσεις παγίων "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
-        <TextView
+
+        <Button
             android:id="@+id/da8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Σύνολο δαπανών "
+            android:background="@android:color/holo_blue_dark"
             android:inputType="textPersonName"
+            android:onClick="displaySumda8"
+            android:text="Σύνολο δαπανών "
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="δ)Δαπανες(Ελεύθερων Επαγγελματιών)"
+            android:text="δβ)Δαπανες(Ελεύθερων Επαγγελματιών)"
             android:textColor="#000000"
             android:textSize="17dp" />
+
         <EditText
             android:id="@+id/db1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="αμοιβές προδωπικού "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/db2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="αμοιβές και έξοδα τρίτων "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/db3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="παροχές τριτων,φόροι τέλη "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/db4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="ιδιόχρηση "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/db5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="διάφορα εξοδα "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/db6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="τόκοι και συναφή έξοδα "
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/db7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="αποσβέσεις παγίων "
-            android:inputType="textPersonName"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="15dp" />
-        <TextView
-            android:id="@+id/db8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Σύνολο δαπανών "
             android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/db8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:onClick="displaySumdb8"
+            android:inputType="textPersonName"
+            android:text="Σύνολο δαπανών "
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
@@ -734,6 +775,7 @@
             android:text="ζ)Ακαθάριστα Έσοδα Ελεύθερων Επαγγελματιών"
             android:textColor="#000000"
             android:textSize="17dp" />
+
         <EditText
             android:id="@+id/editText23"
             android:layout_width="match_parent"
@@ -743,6 +785,7 @@
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/editText23"
             android:layout_width="match_parent"
@@ -752,6 +795,7 @@
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/editText23"
             android:layout_width="match_parent"
@@ -761,6 +805,7 @@
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/editText23"
             android:layout_width="match_parent"
@@ -770,6 +815,7 @@
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/editText23"
             android:layout_width="match_parent"
@@ -779,6 +825,7 @@
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15dp" />
+
         <EditText
             android:id="@+id/editText23"
             android:layout_width="match_parent"
