@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -28,21 +29,19 @@ public class E3 extends AppCompatActivity {
 
     }
 //Kataxwrisi timwn se metablites
-    private int kataxwrisi(View view) {
-        //Gets the values
-        EditText d1 = (EditText) findViewById(R.id.d1);
-        Integer Calcd1 = Integer.parseInt(d1.getText().toString());
-        EditText d2 = (EditText) findViewById(R.id.d2);
-        Integer Calcd2 = Integer.parseInt(d1.getText().toString());
+    public void displaySumd8(View view) {
+        try {
+            EditText d1 = (EditText) findViewById(R.id.d1);
+            int Calcd1 = Integer.parseInt(d1.getText().toString());
+            EditText d2 = (EditText) findViewById(R.id.d2);
+            Integer Calcd2 = Integer.parseInt(d2.getText().toString());
+            Button Sum = (Button) findViewById(R.id.d8);
+            d8 = Calcd1 + Calcd2;
+            Sum.setText("Σύνολο δαπανών = " + String.valueOf(d8));
+        }
+        catch (java.lang.NumberFormatException e) {
 
-        d8 = Calcd1+Calcd2;
-
-    return d8;
+        }
     }
 
-
-    private void displaySumd8(int kataxwrisi) {
-        TextView Sum = (TextView) findViewById(R.id.d8);
-        Sum.setText(kataxwrisi);
-    }
 }
